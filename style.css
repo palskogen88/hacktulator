@@ -13,10 +13,11 @@
 html {
   background-color: #002323;
   color: #FFF;
+  align-items:center;
 }
 
 h1 {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 #main {
