@@ -1,18 +1,31 @@
-body {
-    background-color: #003232;
+html {
+  background-color: #002323;
+  color: #FFF;
+}
+
+h1 {
+  padding: 1.5em;
 }
 
 #main {
-  display: block;
-  align-content: center;
-  width: auto;
-  max-width: 600 px;
-  position: sticky, center;
+  background-color: #002323;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  max-width:60%;
+  min-height: 90%;
+  margin:auto;
+  margin-top:5em;
 }
 
 .calculateBtn {
-  background-color: blue;
-  color: white;
+  background-color: #00c864;
+  color: black;
+  padding:1em;
+  font-size: 1em;
+  border:none;
+  color:#FFF;
+  margin:0.5em;
+  border-radius: 5px;
 }
 
 .calculateBtn.active {
@@ -20,11 +33,78 @@ body {
   color: white;
 }
 
-#output {
-  color: #blue;
+#gjem {
+  width: 100%;
+}
+
+#sok {
+  border: none;
+  background-color: #00c864;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color:#FFF;
+  border-radius: 20px;
+}
+
+#input {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
 }
 
 #output {
-  background-color: white;
-  color: blue;
+  padding: 1em;
+}
+
+#result {
+  padding: 1em;
+}
+
+#omsetning {
+  font-size: 24px;
+  font-weight: bold;
+  padding:1em;
+}
+
+#kostnad {
+  font-size: 24px;
+  font-weight: bold;
+  padding:1em;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  color: #FFF;
+  background-color: #002323;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  display: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #006e5a;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 5 18px;
+  display: none;
+  overflow: hidden;
+  text-align:center;
+  color: #FFF;
+  background-color: #006e5a;
 }

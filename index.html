@@ -4,15 +4,25 @@
   </head>
   <body>
     <div id="main">
-    <input type="text" id="input" placeholder="Enter ORGNUMMER"></input>
-    <button id="sok" onclick="fetchData()">Send </button>
-    <div id="output"> </div>
-    <div id="knapper" style="display:none">
-    <button class="calculateBtn" id="lite">Lite</button>
-    <button class="calculateBtn" id="middels">Middels</button>
-    <button class="calculateBtn" id="stort">Stort</button>
+      <h1>Hvor mye kan det koste <br>din bedrift å bli hacket?</h1>
+      <input type="text" id="input" placeholder="Organisasjonsnummer"></input>
+      <button id="sok" onclick="fetchData()">Søk</button>
+      <div id="gjem">
+      <div id="output"> </div>
+
+      <div id="knapper" style="display:none">
+        <h2>Velg alvorlighetsgrad</h2>
+        <button class="calculateBtn" id="lite">Lite</button>
+        <button class="calculateBtn" id="middels">Middels</button>
+        <button class="calculateBtn" id="stort">Stort</button>
+      </div>
+      <div id="result"></div>
+
+      <button type="button" class="collapsible" id="hvordan">Hvordan har vi regnet ut dette?</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta est nec felis ornare porttitor. Integer nec turpis quis magna imperdiet pretium. Proin diam ligula, porta sed felis in, egestas faucibus odio. Nulla iaculis justo nec massa lacinia tristique. Nunc fringilla posuere est. Fusce augue nunc, varius eu quam et, ultrices viverra enim. Vestibulum id nisi placerat, rhoncus velit sed, interdum tellus. Phasellus a magna ac arcu blandit tempus. Integer nisl velit, maximus at erat et, commodo ultricies nisl. Mauris lobortis augue ante, eget lobortis leo venenatis vitae. Sed consectetur tellus nunc, a aliquam ante porta sed. Integer tristique nibh ac varius hendrerit.</p>
+      </div>
     </div>
-    <div id="result"></div>
     </div>
     <script src="felles.js" charset="utf-8"></script>
   </body>
