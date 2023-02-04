@@ -1,0 +1,30 @@
+body {
+    background-color: #003232;
+}
+
+#main {
+  display: block;
+  align-content: center;
+  width: auto;
+  max-width: 600 px;
+  position: sticky, center;
+}
+
+.calculateBtn {
+  background-color: blue;
+  color: white;
+}
+
+.calculateBtn.active {
+  background-color: white;
+  color: white;
+}
+
+#output {
+  color: #blue;
+}
+
+#output {
+  background-color: white;
+  color: blue;
+}
