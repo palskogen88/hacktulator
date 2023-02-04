@@ -1,25 +1,4 @@
 
-/*  function fetchData() {
-    const input = document.getElementById("input").value.replace(/\s/g, "");
-    const url = `https://cors-anywhere.herokuapp.com/https://data.brreg.no/regnskapsregisteret/regnskap/${input}`;
-    //const navnUrl = `https://cors-anywhere.herokuapp.com/https://data.brreg.no/enhetsregisteret/api/enheter/${input}`;
-/*
-    fetch(url)
-      .then(response => response.json())
-      .then(data => {
-        let sumDriftsinntekter = 0;
-        data.forEach(item => {
-          sumDriftsinntekter = item.resultatregnskapResultat.driftsresultat.driftsinntekter.sumDriftsinntekter;
-        });
-/*
-    fetch(navnUrl)
-      .then(response => response.json())
-      .then(data => {
-        let selskapsnavn = "";
-        data.forEach(item => {
-          selskapsnavn = item.navn;
-        });
-*/
 function fetchData() {
   document.getElementById("gjem").style.display = "none";
   const input = document.getElementById("input").value.replace(/\s/g, "");
