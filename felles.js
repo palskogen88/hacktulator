@@ -23,7 +23,7 @@
 function fetchData() {
   document.getElementById("knapper").style.display = "none";
   const input = document.getElementById("input").value.replace(/\s/g, "");
-  const url = `https://cors-anywhere.herokuapp.com/https://data.brreg.no/regnskapsregisteret/regnskap/${input}`;
+  const url = `https://data.brreg.no/regnskapsregisteret/regnskap/${input}`;
   const secondUrl = `https://cors-anywhere.herokuapp.com/https://data.brreg.no/enhetsregisteret/api/enheter/${input}`;
 
   Promise.all([fetch(url), fetch(secondUrl)])
