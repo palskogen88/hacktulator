@@ -1,3 +1,15 @@
+@media only screen and (max-width: 800px) {
+  #main {
+    width:100%;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  html {
+    align-items: center;
+  }
+}
+
 html {
   background-color: #002323;
   color: #FFF;
